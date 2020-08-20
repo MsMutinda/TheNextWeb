@@ -1,0 +1,220 @@
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.content {
+    width: 100%;
+}
+
+i {
+    font-style: normal;
+}
+
+#black {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    border: 1px solid black;
+    height: 25px;
+    width: 100%;
+}
+
+#bleft button, #bright button {
+    border: none;
+    background: black;
+    color: #fff;
+    display: inline-flex;
+    border: 1px solid transparent;
+    justify-content: space-evenly;
+}   
+
+#wright button {
+    border: none;
+    color: #fff;
+    display: inline-flex;
+    border: 1px solid transparent;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 20px;
+    margin-right: 10px;
+}
+
+#wleft p {
+    display: inline-flex;
+    border: 1px solid transparent;
+    justify-content: space-evenly;
+    margin-right: 10px;
+    color: grey; 
+}
+
+#wright, #bright {
+    float: right;
+    position: relative;
+    bottom: 17px;
+}
+
+#white {
+    position: fixed;
+    top: 27px;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid black;
+    height: 45px;
+    width: 100%;
+}
+
+#yellow {
+    background-color: rgb(253, 253, 33);
+    width: 100%;
+    position: fixed;
+    top: 57px;
+    left: 0;
+    border: 1px solid black;
+    height: 26px;
+}
+
+#first {
+    float: left;
+    width: 69%;
+    position: relative;
+    cursor: pointer;
+    left: 10px;
+    color: white;
+    height: 517px;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/Untitled-design-2020-08-20T110356.329-796x417.png");
+    border: 1px solid grey;
+    top: 71px;
+}
+
+#second {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/tnw2020-empty_feature_img.jpg");
+    color: white;
+}
+
+#third {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/android-auto-car-slow-ev-infotainment-computer-796x448.jpg");
+    color: #fff;
+}
+
+#second, #third {
+    float: right;
+    cursor: pointer;
+    position: relative;
+    left: 10px;
+    top: 71px;
+    width: 30%;
+    height: 250px;
+    border: 1px solid grey;
+}
+
+#news, #funding, #deals {
+    width: 94%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    position: relative;
+    left: 48px;
+}
+
+#news {
+    top: 120px;
+}
+
+#funding {
+    top: 80px;
+}
+
+#news p, #funding p, #deals p {
+    position: relative;
+    width: 288px;
+    color: #fff;
+    height: 195px;
+    background-image: linear-gradient(to right, rgb(97, 14, 35), #3c3c3c);
+    border: 1px solid grey;
+}
+
+ #lists{
+     display: grid;
+     grid-template-columns: auto auto auto;
+     width: 94%;
+     height: 400px;
+     position: relative;
+     top: 150px;
+     left: 48px;
+ }
+
+ #lists p {
+    color: #fff;;
+    position: relative;
+    width: 391px;
+    height: 195px;
+    background-image: linear-gradient(to right, rgb(97, 14, 35), #3c3c3c);
+    border: 1px solid grey;
+ }
+
+ #lists li {
+     position: relative;
+     right: 15px;
+     bottom: 10px;
+ }
+
+ #deals {
+     display: grid;
+     grid-template-columns: auto auto auto auto;
+     width: 94%;
+     height: 600px;
+     position: relative;
+     top: 1315px;
+ }
+
+ .bottom {
+     background-color: rgb(70, 68, 68);
+     height: 110px;
+     position: absolute;
+     top: 3850px;
+     color: rgb(197, 190, 190);
+     left: 6px;
+     width: 100%;
+ }
+
+ .bottom2 {
+     background-color: rgb(24, 21, 21);
+     height: 90px;
+     color: rgb(197, 190, 190);
+     position: absolute;
+     top: 3960px;
+     left: 6px;
+     width: 100%;
+ }
+
+ .bottom img {
+     margin-right: 10px;
+     position: relative;
+     top: 30px;
+     left: 480px;
+     cursor: pointer;
+ }
+
+ .bottom ul, .bottom2 ul {
+     display: inline-block;
+     position: relative;
+     width: 100%;
+ }
+
+ .bottom ul{
+    left: 420px;
+     top: 30px;
+ }
+
+ .bottom2 ul {
+     left: 320px;
+     top: 30px;
+ }
+
+ .bottom li, .bottom2 li {
+     list-style: none;
+     display: inline-block;
+     margin-right: 8px;
+     font-size: 15px;
+ }
