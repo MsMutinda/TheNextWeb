@@ -122,16 +122,34 @@ i {
 }
 
 #funding {
-    top: 80px;
+    top: 90px;
 }
 
-#news p, #funding p, #deals p {
+#funding div {
+    position: relative;
+    width: 288px;
+    color: #fff;
+    height: 195px;
+    margin-right: 20px;   
+    border: 2px solid lightgray;
+}
+
+#funding p {
+    height: 10px;
+    position: relative;
+    width: 275px;
+    font-size: 20px; 
+    color: black;
+    font-size: 18px;
+    padding: 0 0 0 15px;
+}
+
+#news p, #deals p {
     position: relative;
     width: 288px;
     color: #fff;
     height: 195px;
     background-image: linear-gradient(to right, rgb(97, 14, 35), #3c3c3c);
-    border: 1px solid grey;
 }
 
  #lists{
